@@ -20,7 +20,7 @@ export default class IssLocationScreen extends Component {
         try {
             setInterval(async () => {
                 this.getIssLocation()
-            }, 5000);
+            }, 10000);
         } catch (e) {
             console.log(e);
         }
